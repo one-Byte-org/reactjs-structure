@@ -1,0 +1,191 @@
+/* download Montserrat */
+
+// @font-face {
+//   font-family: MontserratBold;
+//   src: url(./Assets/Font/Montserrat/static/Montserrat-Bold.ttf);
+// }
+// @font-face {
+//   font-family: Montserrat;
+//   src: url(./Assets/Font/Montserrat/static/Montserrat-Regular.ttf);
+// }
+// @font-face {
+//   font-family: MontserratMed;
+//   src: url(./Assets/Font/Montserrat/static/Montserrat-Medium.ttf);
+// }
+
+.error {
+    color: red;
+}
+
+/* Sign up */
+.flex-signup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sign-up-side {
+    background-color: #fafaff;
+    width: 40%;
+    height: 100vh;
+}
+
+.sign-up-side-image {
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 90%;
+    height: 80%;
+}
+
+.signup-data-side {
+    /* background-color: aqua; */
+    width: 60%;
+    height: 100vh;
+}
+
+.top-signup {
+    padding: 25px 50px 0px;
+    /* padding-bottom: 5%; */
+}
+
+.data-signup {
+    /* padding: 5%; */
+    padding: 0% 5% 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5386px;
+    /* line-height: 35px; */
+}
+
+.signup-input {
+    width: 320px;
+    height: 40px;
+    border: 1.5px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.signup-input-tag {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.2693px;
+    line-height: 17px;
+}
+
+.input-group-signup {
+    width: 50%;
+    margin-top: 30px;
+    /* margin: 1px; */
+}
+
+.agree-text {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.agree-div {
+    display: flex;
+    align-items: baseline;
+    margin-left: 5%;
+}
+
+.signup-but {
+    margin-left: 5%;
+    width: 85%;
+    margin-top: 5px;
+    border-radius: 4px;
+    height: 5%;
+    background: linear-gradient(90deg, #ec008c 0%, #fc6767 100%);
+    color: white;
+    border: 1px solid #dee2e6;
+}
+
+/* Sign up ended */
+
+/* Login Starts */
+.login-side {
+    background-color: #fafaff;
+    width: 57%;
+    height: 100vh;
+}
+
+.login-data-side {
+    width: 40%;
+    height: 100vh;
+}
+
+.login-side-image {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: auto;
+    width: 80%;
+    height: 80%;
+}
+
+.input-group-login {
+    margin-top: 30px;
+}
+
+.login-input {
+    width: 320px;
+    height: 60px;
+    border: 1.5px solid #dee2e6;
+    background: #f2f2ff;
+    border-radius: 4px;
+}
+
+.login-checkbox {
+    border: 2px solid #ec008c !important;
+}
+
+.link-login {
+    color: #ec008c;
+}
+/* Login ends*/
+
+/* Reset  Starts*/
+.reset-but {
+    width: 320px;
+    height: 60px;
+    margin-left: 5%;
+    border-radius: 4px;
+    height: 5%;
+    background: linear-gradient(90deg, #ec008c 0%, #fc6767 100%);
+    color: white;
+    border: 1px solid #dee2e6;
+}
+
+.data-reset {
+    padding: 10% 5% 2%;
+}
+/* Reset Ends  */
+
+@media screen and (max-width: 768px) {
+    .flex-signup {
+        flex-direction: column;
+    }
+    .login-data-side,
+    .signup-data-side {
+        width: 100%;
+    }
+    .login-side,
+    .sign-up-side {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    .data-signup {
+        flex-direction: column;
+    }
+}
